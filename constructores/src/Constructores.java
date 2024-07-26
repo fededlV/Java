@@ -1,12 +1,7 @@
 public class Constructores {
     public static void main(String[] args) throws Exception {
-        Persona persona1 = new Persona();
-        persona1.nombre = "Fede";
-        persona1.apellido = "de la Vega";
-        persona1.edad = 20;
-        persona1.carrera.nombre = "Ingenieria en Sistemas";
+        Persona persona1 = new Persona("Fede", "de la Vega", 20, "Ingenieria en Sistemas", 5, true);
         
-
         /* Persona persona2 = new Persona();
         persona2.nombre = "Ana Sol";
         persona2.apellido = "Robledo";
